@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="username"
+        android:textSize="25sp"
+        android:layout_gravity="end"
+        android:textAlignment="viewEnd"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/postTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="title"
+        android:textSize="15sp"
+        android:layout_gravity="end"
+        android:textAlignment="viewEnd"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/postBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="post"
+        android:textSize="15sp"
+        android:layout_gravity="end"
+        android:textAlignment="viewEnd"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/postComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="comment"
+        android:textSize="15sp"
+        android:layout_gravity="end"
+        android:textAlignment="viewEnd"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#000000"
+        android:layout_marginBottom="2dp"
+        />
+
+</LinearLayout>
+</LinearLayout>
